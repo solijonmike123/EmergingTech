@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Web Journal</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="icon.png" rel="icon">
+  <link href="icon.png" rel="apple-touch-icon">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+ 
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+
+
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <h1 class="animate__animated animate__fadeInDown"><a href="index.html">Emerging Technologies</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="https://solijonmike123.github.io/first/">About</a></li>
+          
+          <li class="dropdown"><a href="topics.html"><span>Topics</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="AI.html">Artificial Intelligence</a></li>
+              <li><a href="iot.html">Internet of Things</a></li>
+              <li><a href="vr.html">Virtual Reality, Augmentend Reality, Mixed Reality</a></li>
+              <li><a href="ds.html">Data Science, Big Data</a></li>
+              <li><a href="nano.html">Others</a></li>
+            </ul>
+          </li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main id="main">
+
+  
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Contact</li>
+        </ol>
+        <h2>Contact</h2>
+
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="info-box mb-4">
+              <i class="bx bx-map"></i>
+              <h3>Our Address</h3>
+              <a href="https://www.google.com/maps/place/Poblacion,+Cortes,+Bohol/@9.7225823,123.8757688,16z/data=!3m1!4b1!4m6!3m5!1s0x33aa4bd355926081:0x87d761dc15b2b01b!8m2!3d9.7221046!4d123.8808926!16s%2Fg%2F1hc37hnkh">Poblacion, Cortes, Bohol, Philippines</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-envelope"></i>
+              <h3>Email Us</h3>
+              <p><a href="solijonmikelennard@gmail.com">solijonmikelennard@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-phone-call"></i>
+              <h3>Call Us</h3>
+              <a href="tel:+09517130013">09517130013</a>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6 ">
+            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!4v1680264989463!6m8!1m7!1sKQ56pmMiek6B4Di3cnROFw!2m2!1d9.721556075151721!2d123.8821360235661!3f89.31284864192835!4f-0.6926551713350477!5f0.7820865974627469" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+
+
+          <section id="topbar" class="d-flex align-items-center">
+            <div class="container d-flex justify-content-center justify-content-md-between">
+              <div class="contact-info d-flex align-items-center">
+                <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">mikelennard.solijon@bisu.edu.ph</a></i>
+                <i class="bi bi-phone d-flex align-items-center ms-4"><span>+9517130013</span></i>
+              </div>
+              <div class="social-links d-none d-md-flex align-items-center">
+                <a href="https://www.facebook.com/mikegwapocute" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://twitter.com/Mikeyyyqt?t=6TXO-cWlUAoK6uEXqEWmiw&s=07
+                " class="twitter"><i class="bi bi-twitter"></i></a>
+               
+                <a href="https://instagram.com/myk.lnnrd" class="instagram"><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
+          </section>
+        
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
